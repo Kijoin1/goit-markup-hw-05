@@ -662,6 +662,10 @@ outline: transparent;
 }
 
 .modal-form-div {
+    margin-bottom: 8px;
+}
+
+.modal-form-div-comment {
     margin-bottom: 16px;
 }
 
