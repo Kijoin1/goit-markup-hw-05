@@ -657,12 +657,12 @@ outline: transparent;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-bottom: 8px;
+    margin-bottom: 4px;
     display: block;
 }
 
 .modal-form-div {
-    margin-bottom: 16px;
+    margin-bottom: 8px;
 }
 
 .div-icon-svg-input {
