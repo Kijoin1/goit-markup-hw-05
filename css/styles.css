@@ -543,7 +543,7 @@ width: 24px;
 height: 24px;
 
 cursor: pointer;
-
+transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
@@ -560,7 +560,7 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(
     left: 16px;
     transform: translateY(-50%);
     fill: #2e2f42;
-    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .icon-svg-in-button {
@@ -604,8 +604,6 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
 
-/* error? */
-
 .modal-text {
     font-weight: 500;
     font-size: 16px;
@@ -620,7 +618,7 @@ transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .modal-form-checkbox-label {
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
 }
@@ -638,7 +636,7 @@ border-radius: 4px;
 width: 360px;
 height: 40px;
 padding-left: 38px;
-transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 background-color: transparent;
 outline: transparent;
 }
@@ -662,7 +660,7 @@ outline: transparent;
 }
 
 .modal-form-div {
-    margin-bottom: 8px;
+    margin-bottom: 16px;
 }
 
 .div-icon-svg-input {
@@ -679,8 +677,11 @@ outline: transparent;
     transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
     font-size: 12px;
-    line-height: 1.16667;
+    line-height: 1.17;
     letter-spacing: 0.04em;
+    color: rgba(46, 47, 66, 0.4);
+    background-color: transparent;
+    outline: transparent;
 }
 
 .modal-form-comment:focus {
@@ -707,6 +708,7 @@ outline: transparent;
     cursor: pointer;
     fill: transparent;
     margin-right: 8px;
+    background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox-box:checked +
@@ -720,7 +722,8 @@ outline: transparent;
 .modal-form-checkbox-box:focus +
 .modal-form-checkbox-label
 .modal-form-checkbox-span {
-    outline: 1px solid #4d5ae5
+    outline: 1px solid #4d5ae5;
+    border: none;
 }
 
 .modal-form-submit-btn {
