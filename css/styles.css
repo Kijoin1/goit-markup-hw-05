@@ -580,6 +580,7 @@ background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(
     opacity: 0;
     visibility: hidden;
     transition: opacity 250ms cubic-bezier(0.4, 0, 0.2, 1), visibility 250ms cubic-bezier(0.4, 0, 0.2, 1);
+
 }
 
 .backdrop.is-open {
@@ -603,6 +604,7 @@ transform: translate(-50%, -50%);
 transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 }
+
 
 .modal-text {
     font-weight: 500;
@@ -655,7 +657,7 @@ outline: transparent;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8e8f99;
-    margin-bottom: 4px;
+    margin-bottom: 8px;
     display: block;
 }
 
@@ -709,6 +711,7 @@ outline: transparent;
     fill: transparent;
     margin-right: 8px;
     background-color: 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .modal-form-checkbox-box:checked +
