@@ -740,13 +740,19 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     background-color: transparent;
     box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
     margin-right: 24px;
+
+    font-size: 12px;
+    line-height: 2;
+    letter-spacing: 0.04em;
+    padding-left: 16px;
+    color: #ffffff;
 }
 
 .footer-email-input::placeholder {
     font-size: 12px;
     line-height: 2;
     letter-spacing: 0.04em;
-    color: #fff;
+    color: #ffffff;
     padding-left: 16px;
 }
 
@@ -777,4 +783,12 @@ transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 .footer-btn-subscribe:hover {
     background: #404bbf;
+}
+
+.footer-model-form {
+    display: flex;
+}
+
+.footer-model-label {
+    gap: 24px;
 }
